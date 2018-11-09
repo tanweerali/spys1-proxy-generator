@@ -5,7 +5,7 @@ Spys1 automatic proxy generator
 
 Proxies are returned in a list.
 
-Only most recent proxies are taken.(First proxy list)
+Only most recent proxies are taken. (First proxy list)
 
 <b>Makes sure to use capital letters i.e, US, RU, CA ! </b> 
 
