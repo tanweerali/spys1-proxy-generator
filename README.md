@@ -1,13 +1,15 @@
 # spys1-proxy-generator
 Spys1 proxy generator
 
-<b> Usage: python spys1.py RU </b>
+<b>Usage</b>
 
-Proxies are returned in a list.
+python spys1.py -c EU
+or
+python spys1.py --country RU
+
 
 Only most recent proxies are taken. (First proxy list)
 
-<b>Makes sure to use capital letters i.e, US, RU, CA ! </b> 
 
 Proxies are taken from Spys1 pastebin: https://pastebin.com/u/spys1
 
