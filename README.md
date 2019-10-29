@@ -3,8 +3,8 @@ Spys1 proxy generator
 
 <b>Usage</b>
 
-python spys1.py -c US
-or
+python spys1.py -c US <br>
+or <br>
 python spys1.py --country RU
 
 
