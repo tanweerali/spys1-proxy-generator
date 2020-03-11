@@ -1,6 +1,4 @@
 # spys1-proxy-generator
-Spys1 proxy generator
-
 <b>Usage</b>
 <br>
 python spys1.py -c [country code]
