@@ -13,7 +13,7 @@ or <br>
 python spys1.py --country ru
 <br>
 <br>
-For all proxies: "-c all"
+<b>For all proxies: "-c all"</b>
 
 
 Only most recent proxies are taken. (First proxy list)
