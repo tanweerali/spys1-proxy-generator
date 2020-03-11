@@ -3,9 +3,11 @@ Spys1 proxy generator
 
 <b>Usage</b>
 
-python spys1.py -c US <br>
+python spys1.py -c us <br>
 or <br>
-python spys1.py --country RU
+python spys1.py --country ru
+<br>
+For all proxies use: "-c all"
 
 
 Only most recent proxies are taken. (First proxy list)
