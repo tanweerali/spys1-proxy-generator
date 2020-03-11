@@ -3,14 +3,14 @@ from bs4 import BeautifulSoup
 import argparse
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-c", "--country", required=True, 
+ap.add_argument("-c", "--country", required=True,
                 help="proxy origin country")
 args = vars(ap.parse_args())
 
 first_arg = args['country'].upper()
 
 class Proxy_Generate():
-    
+
     def proxy_soup():
 
         proxy_url = 'https://pastebin.com/u/spys1'
@@ -39,16 +39,16 @@ class Proxy_Generate():
                 proxies = i.text
                 proxy.append(proxies)
         return proxy
-    
-    
+
+
     def get_proxy(first_arg, proxy_soup = proxy_soup()):
         proxy = proxy_soup
         country = first_arg
         for p in proxy[1:]:
             if country in p:
-                proxies = p.rsplit(' ',-1)[0].replace(' ','')                
-                print(proxies)       
-
+                print(p.rsplit(' ')[0])
+            elif country == 'ALL':
+                print(p.split(' ')[0])
 
 
 if __name__ == "__main__":
