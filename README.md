@@ -3,6 +3,9 @@ Spys1 proxy generator
 
 <b>Usage</b>
 <br>
+python spys1.py -c [country code]
+<br>
+<br>
 <b>Example</b>
 <br>
 python spys1.py -c us <br>
